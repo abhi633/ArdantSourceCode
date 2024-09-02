@@ -69,7 +69,7 @@ namespace ArdantOffical.Pages
             }
             catch (SalesforceException ex)
             {
-                ErrorMessage = string.Format("Authentication failed: {0} : {1}", ex.Error, ex.Message);
+                ErrorMessage = string.Format("Testing -- Authentication failed: {0} : {1}", ex.Error, ex.Message);
             }
             try
             {
