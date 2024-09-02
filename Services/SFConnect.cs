@@ -14,9 +14,9 @@ namespace ArdantOffical.Services
         public static string User = "access@ardant.com.au";
         public static string Password = "cArl0905$$$$";
         public static string Token = "3VwRdO5SZLa9xXsGrEDgJuCQ";
-       const string sfdcConsumerKey = "3MVG9q4K8Dm94dAzDT_aDS743.APVtUpmieECLTOz2emJkbddzPVSn7Dwf0q17f6RMjWK7ktenpeY3_x82ysw";
+       const string sfdcConsumerKey = "3MVG9q4K8Dm94dAzDT_aDS743.P9QRZAcnaEAmyep1.iuO5yau7zk7oygLxR4XAtKu_5izSqVe7vvIE0nTbsB";
     
-        const string sfdcConsumerSecret = "42510961F106FDC0FEACAE97F0D74E07D56D005D47BC95DA2350411FD2FE40BF";
+        const string sfdcConsumerSecret = "C7023AEEF43414D91F62472A996EC13BD5EDDC9F773ADB9CE741DBF007634206";
        
         public static SalesforceClient client = new SalesforceClient();
         public static UsernamePasswordAuthenticationFlow authFlow = new(sfdcConsumerKey, sfdcConsumerSecret, User, Password);
