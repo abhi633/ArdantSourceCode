@@ -30,6 +30,7 @@ namespace ArdantOffical.Services
 
         public static void OpenConnection()
         {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
             client.Authenticate(authFlow);
 
         }
