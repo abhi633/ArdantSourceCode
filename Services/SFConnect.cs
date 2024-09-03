@@ -18,9 +18,9 @@ namespace ArdantOffical.Services
         const string sfdcConsumerSecret = "2C09BB6E4A252DA8C54164E0FCFCFCD49A165E5846D70A94D92DECDA9344200F";
        
         public static SalesforceClient client = new SalesforceClient();
-        //public static UsernamePasswordAuthenticationFlow authFlow = new(sfdcConsumerKey, sfdcConsumerSecret, User, Password);
+        public static UsernamePasswordAuthenticationFlow authFlow = new(sfdcConsumerKey, sfdcConsumerSecret, User, Password);
 
-        public static UsernamePasswordAuthenticationFlow authFlow = new UsernamePasswordAuthenticationFlow(sfdcConsumerKey, sfdcConsumerSecret, User, Password);
+        //public static UsernamePasswordAuthenticationFlow authFlow = new UsernamePasswordAuthenticationFlow(sfdcConsumerKey, sfdcConsumerSecret, User, Password);
 
         public SFConnect()
         {
